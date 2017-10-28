@@ -1,0 +1,6 @@
+[package]
+name = "petra"
+version = "0.1.0"
+authors = ["phustly <natsume.pcuse75@gmail.com>"]
+
+[dependencies]
