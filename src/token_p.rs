@@ -53,7 +53,9 @@ impl lexer for Token {
             return tkn;
         }
         match ctyp[ch] {
-            Letter => 
+            Letter => {
+            
+            }
         }
     }
 }
@@ -74,7 +76,6 @@ fn run_compile() -> Result<sucess, err> {
     if let Err(err) = initChTyp() {
         return err
     };
-    
 
     Ok(())
 }
